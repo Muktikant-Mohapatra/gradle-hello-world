@@ -3,7 +3,7 @@ MAINTAINER Datawire <dev@datawire.io>
 
 ENV TERM=dumb
 
-WORKDIR /srv
+WORKDIR /src
 COPY    . .
 RUN     ./gradlew test build
 
